@@ -1,0 +1,3 @@
+<div class="well hero-unit">
+  <h2>{text}</h2>{subtext}
+</div>

@@ -1,0 +1,9 @@
+div.navbar
+  div.navbar-inner
+    div.container
+      a.brand(href='/#/')= brand
+      ul.nav
+        - obj = { 'Calculators':'calc', 'Items':'item', 'Bestiary':'beast', 'Quests':'quest', 'Contact':'contact'}
+          - each key, val in obj
+            li(id='nav-#{key}')
+              a(href='/#/#{key}')= val

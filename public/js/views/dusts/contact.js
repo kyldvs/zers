@@ -1,0 +1,1 @@
+(function(){dust.register("contact",body_0);function body_0(chk,ctx){return chk.write("<div class=\"well hero-unit\"><h1>").reference(ctx.get("title"),ctx,"h").write("</h1><ul>").section(ctx.get("names"),ctx,{"block":body_1},null).write("</ul></div>");}function body_1(chk,ctx){return chk.write("<li>").reference(ctx.get("name"),ctx,"h").write("</li>\n");}return body_0;})();
